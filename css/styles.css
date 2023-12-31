@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@800&family=Poppins&family=Rajdhani:wght@500&family=Roboto+Mono&family=Signika+Negative:wght@600&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.content {
+    width: 1349px;
+    height: 590px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    width: 470px;
+    height: 620px;
+}
+
+.content__img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/home-phones.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right {
+    width: 360px;
+    height: 600px;
+}
+
+.content__login {
+    width: 100%;
+    height: 405px;
+    border:  1px #dbdbdb solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittle {
+    width:190px;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-image: url(/img/text__ig.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content__input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 75%;
+    height: 16px;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    padding: 10px;
+    outline: none;
+    background-color: #fafafa;
+    border: 1px #dbdbdb solid;
+}
+
+.btn {
+    width: 80%;
+    height: 34px;
+    background-color: #4cb5f9;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-size: 14px;
+}
+
+hr {
+    width: 110px;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.log__facebook {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.img_face {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background-image: url(/img/facebook.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_face {
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.forgot {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    color: #004561;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.sign__up {
+    width: 100%;
+    height: 60px;
+    margin: 10px 0;
+    border:  1px #dbdbdb solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__app {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text__app {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.img_links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img_linkP {
+    height: 80%;
+    width: 46%;
+    background-image: url(/img/getGP.png);
+    background-size: cover;
+}
+
+.img_linkM {
+    height: 80%;
+    width: 46%;
+    background-image: url(/img/getGM.png);
+    background-size: cover;
+}
+
+.links__First {
+    width: 80%;
+    text-align: center;
+    line-height: 30px;
+    margin: 50px;
+}
+
+.link {
+    color: rgb(83, 83, 83);
+    margin: 10px;
+    font-size: 14px;
+}
+
+.links__Second {
+    color: rgb(83, 83, 83);
+}
+
+select {
+    border: none;
+    padding: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+}
+
+.photo1 {
+    position: relative;
+    top: -593px;
+    left: 159px;
+}
+
+::placeholder {
+    font-size: 12px;
+}
